@@ -1,0 +1,65 @@
+body{
+	background-color: #29298d;
+	margin-top: 4vh;
+}
+h4{
+	font-weight: 700;
+}
+p, a {
+	font-size: 1.2em;
+	text-align: justify;
+}
+
+.card{
+	margin: 8px;
+	margin-bottom: 20px
+}
+
+
+.img-crd img{
+	margin-top: 8px;
+	width: 100%;
+	box-shadow: 2px 2px 10px 1px #888888;
+}
+
+.card-title{
+	font-size: 1.6em !important;
+	font-weight: 600 !important;
+}
+
+.btn-02{
+	margin-right: 29vh;
+}
+
+.btn-crd{
+	border-radius: 8px;
+	width: 12vh;
+}
+
+.page-footer{
+	margin-top: 20px;
+	background-color: #202124;
+}
+
+#btn-41, .member-icon{
+	width: 8vh;
+	height: 8vh;
+	background-color: #29298d;
+}
+#btn-41 img, .member-icon img {
+	width: 100%;
+	border-radius: 50%;
+}
+
+section{
+	display: grid;
+	margin-top: 4vh;
+	margin-bottom: 4vh;
+	background-color: white;
+}
+
+#sec-002{
+	display: grid;
+	margin-top: 4vh;
+	background-color: #cecece;
+}
