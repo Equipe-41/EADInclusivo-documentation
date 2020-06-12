@@ -2,6 +2,8 @@ body{
 	background-color: #29298d;
 	margin-top: 4vh;
 }
+
+
 h4{
 	font-weight: 700;
 }
@@ -10,12 +12,25 @@ p, a {
 	text-align: justify;
 }
 
+.logo-eadi{
+	position: relative;
+	width: 100%;
+}
+
+.logo-eadi img{
+	position: absolute;
+	width: 100%;
+	margin-top: 2em;
+}
+
 .card{
 	margin: 8px;
 	margin-bottom: 20px
 }
 
-
+.img-crd{
+	position: relative;
+}
 .img-crd img{
 	margin-top: 8px;
 	width: 100%;
@@ -51,15 +66,25 @@ p, a {
 	border-radius: 50%;
 }
 
+.vd-crd{
+	margin-bottom: 4vh;
+}
+
+.vd-crd video{
+	width: 100%;
+}
+
 section{
 	display: grid;
 	margin-top: 4vh;
 	margin-bottom: 4vh;
+	padding-bottom: 2vh;
 	background-color: white;
 }
 
-#sec-002{
+#knowledge{
 	display: grid;
 	margin-top: 4vh;
+	padding-bottom: 4vh;
 	background-color: #cecece;
 }
